@@ -1,0 +1,132 @@
+html
+{
+    margin:0px;
+    padding:0px;
+    height: 100%;
+    width:100%;
+ }
+ body
+{
+	margin: 0;
+	background-color: #E8F1F8;
+	font-size: 12px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	padding: 0;
+	height: 100%;
+	width:100%;
+}
+div, span, td
+{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+} 
+
+div.cHead
+{
+    background: url(img/headbg.gif) repeat-x top;
+    border: 1px solid #99bbe8;
+    border-top: 0px;
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    height: 30px;
+    font-size: 16px
+}
+
+ div.cHead div
+{
+    padding:4px;
+    white-space: nowrap;
+}
+ div.cHead div.userName
+{
+    background:url("img/grid.png") no-repeat left ;
+    color:#15428b;
+    margin-left:10px;
+    padding-left:20px;
+}
+#weekDay{
+   position: absolute;
+   top: 85px;
+   left:80px;
+}
+#weekDay td{
+    width: 165px;
+    text-align:center;
+}
+
+.tableDiv{
+   position: absolute;
+   top: 120px;
+   left:18px;
+   width: 1300px;
+   height: 550px;
+   overflow:scroll;
+}
+
+.chooseTable{
+   position: absolute;
+   top: 0px;
+   left:18px;
+}
+
+.chooseTable td{
+    width: 165px;
+    text-align:center;
+    height: 45px;
+    border:1px solid #ddd;
+    background-color: #FFFFFF;
+    position: relative
+}
+.timeSpan{
+    vertical-align:top; 
+    position: absolute;
+    top: 1px;
+    left: 15px
+    
+}
+#showTd{
+    width: 60px;
+    background-color: E8EEF7;
+    position: relative;
+    left: 0px;
+}
+
+.tdDown{
+    width: 165px;
+    text-align:center;
+    height: 45px;
+    border:1px solid #ddd;
+    background-color: #AEAFFF;
+    position: relative
+}
+
+.tdUnFesible{
+    width: 165px;
+    text-align:center;
+    height: 45px;
+    border:1px solid #ddd;
+    background-color: #E7E7E7;
+    position: relative
+}
+
+.tdUsed{
+    width: 165px;
+    text-align:center;
+    height: 45px;
+    border:1px solid #ddd;
+    background-color: #9A9CFF;
+    position: relative
+}
+
+.tdCert{
+     width: 165px;
+    text-align:center;
+    height: 45px;
+    border:1px solid #ddd;
+    background-color: #9A9CFF;
+    position: relative 
+}
+
+

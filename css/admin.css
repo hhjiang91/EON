@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Document */
+body{
+	font-family:"仿宋", "Arial Unicode MS", "黑体", "宋体", "楷体", "隶书", "Times New Roman";
+font-size:16px;
+background-repeat:no-repeat;}
+
+.imgIdex{
+	top:0px;
+	left:0px;
+	position:absolute;}
+
+.menu{
+	width:400px;
+	height:35px;
+	background-color:#FFF;
+	position:absolute;
+	top:100px;
+	left:200px;
+	border-radius:3px;}
+
+.menu td{
+	margin-left:5px;
+	margin-right:5px;
+	border:1px solid;
+	border-style: groove;}
+	
+.menu a{text-decoration:none;}
+.menu a:link{color:#000}     /* 未访问的链接 */
+.menu a:visited{color:#666}  /* 已访问的链接 */
+.menu a:hover{ color:#33C;}    /* 当有鼠标悬停在链接上 */
+.menu a:active{color: #909}
+
+#mainContent,#menberShow, #meeting,#vote{
+	top:180px;
+	position:absolute;
+	left:200px;
+	}
+#mainContent table{
+	position:absolute;
+	top:25px;
+	left:5px;
+	font-size:18px;}
+
+#mainContent td{
+	border:1px solid;}
+	
